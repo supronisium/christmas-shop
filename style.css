@@ -1,0 +1,247 @@
+/* color variables */
+/* fonts variables */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  transition-duration: 0.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* The scroll-behavior property is not inherited, it is applied to scrollable blocks */
+}
+
+body {
+  font: 400 16px "Montserrat", serif;
+  background-color: #FFFFFF;
+  color: #181C29;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 24px;
+}
+
+h1 {
+  font: 600 normal 32px/1.5 "Montserrat", serif;
+  color: #FFFFFF;
+  letter-spacing: 5.76px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font: 600 normal 24px "Montserrat", serif;
+  line-height: 152%;
+  color: #181C29;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+  margin: 0;
+}
+
+h3 {
+  font: 400 normal 35px/1.3 "Montserrat", serif;
+  letter-spacing: 0.06em;
+  color: #181C29;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  font: 400 normal 20px/1.3 "Montserrat", serif;
+  letter-spacing: 0.06em;
+  color: #181C29;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+h5 {
+  font: 400 normal 15px/1.3 "Montserrat", serif;
+  letter-spacing: 0.06em;
+  color: #181C29;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.caption {
+  font: 400 normal 24px "Allura", cursive;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  padding: 0 8px;
+}
+
+/* block Header */
+.header {
+  background-color: #FFFFFF;
+}
+
+.header__top {
+  display: flex;
+  width: 1276px;
+  margin: 0 auto;
+}
+
+.header__top .logo {
+  flex-grow: 1;
+}
+
+.header__top .logo__title {
+  font: 600 12px "Montserrat", serif;
+  text-transform: uppercase;
+}
+
+.header__top .logo__title a {
+  line-height: 24px;
+  border-radius: 12px;
+  display: block;
+  padding: 12px;
+}
+
+.logo {
+  color: #181C29;
+  font: 34px "Allura", cursive;
+  letter-spacing: 0.06ex;
+  padding-bottom: 7px;
+}
+
+.logo {
+  background: url(assets/snowflake.svg) no-repeat;
+}
+
+.header ul nav {
+  display: flex;
+}
+
+.header__menu nav ul {
+  display: flex;
+  gap: 11px;
+  padding: 7px 0;
+  margin: 0;
+}
+
+.header__menu nav ul a {
+  font: 600 12px "Montserrat", serif;
+  text-transform: uppercase;
+  line-height: 24px;
+  border-radius: 12px;
+  color: #181C29;
+  display: block;
+  padding: 12px;
+}
+
+.header__menu nav ul a:hover {
+  color: #FF4646;
+  background-color: rgba(255, 70, 70, 0.1);
+}
+
+.header__menu nav ul li.active a, .header__menu nav ul li.active a:hover {
+  cursor: default;
+}
+
+.header__menu nav ul li {
+  list-style-type: none;
+  margin-left: 24px;
+  padding-top: 2px;
+}
+
+.container-bg {
+  background: #FF4646 url(assets/bg-snow.png);
+  border-radius: 20px 20px 0px 0px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* block Hero */
+section.hero {
+  padding: 60px 0;
+  background: url(assets/bg-ball.png) no-repeat center center;
+  background-size: auto 604px;
+}
+
+.container__hero {
+  width: 476px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.hero__button {
+  padding: 12px 0;
+  width: 230px;
+  margin: 0 auto;
+}
+
+.hero__button a {
+  font: 600 12px/1.3 "Montserrat", serif;
+  letter-spacing: 0.6;
+  text-transform: uppercase;
+  background: #181C29;
+  padding: 20px 32px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  display: block;
+}
+
+.container__hero .caption {
+  color: #FFFFFF;
+}
+
+/* block About */
+section.about {
+  padding: 60px 0;
+  width: 1260px;
+  margin: 0 auto;
+}
+
+.block__about {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.block__about__intro {
+  flex-grow: 1;
+  padding: 0 60px;
+}
+
+.block__about__decor {
+  flex-grow: 0;
+  height: 528px;
+  width: 638px;
+  background: url(assets/santa.png);
+  border-radius: 20px;
+}
+
+.block__about__intro__container {
+  width: 426px;
+  text-align: left;
+}
+
+.block__about__intro__container .caption {
+  color: #FF4646;
+}
+
+.block__about__intro__container .caption, .block__about__intro__container h2 {
+  text-align: left;
+}
+
+/*# sourceMappingURL=style.css.map */
