@@ -587,10 +587,10 @@ section.slider h2 {
 
 .gifts__menu nav ul {
   display: flex;
-  gap: 9px;
+  gap: 10px;
   padding: 7px 0;
   margin: 0 auto;
-  width: 480px;
+  width: 468px;
 }
 
 .gifts__menu nav ul a {
