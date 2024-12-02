@@ -88,6 +88,11 @@ h5 {
   padding: 0 8px;
 }
 
+li.now a, a.active, li.now a:hover, a.active:hover {
+  cursor: default;
+  pointer-events: none;
+}
+
 /* block Header */
 .header {
   background-color: #FFFFFF;
@@ -157,10 +162,6 @@ h5 {
 .header__menu nav ul a:hover {
   color: #FF4646;
   background-color: rgba(255, 70, 70, 0.1);
-}
-
-.header__menu nav ul li.active a, .header__menu nav ul li.active a:hover {
-  cursor: default;
 }
 
 .header__menu nav ul li {
