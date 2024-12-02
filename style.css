@@ -536,11 +536,11 @@ section.slider h2 {
   color: #181C29;
 }
 
-.footer__block div p a {
+.footer__block a {
   color: #181C29;
 }
 
-.footer__block div p a:hover {
+.footer__block a:hover {
   color: #FF4646;
 }
 
