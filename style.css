@@ -519,9 +519,14 @@ section.slider h2 {
 .footer__block div {
   background-color: #ECF3F8;
   text-align: center;
-  width: 417px;
+  border-radius: 20px;
+}
+
+.footer__block div a {
+  width: 377px;
   padding: 20px;
   border-radius: 20px;
+  display: block;
 }
 
 .footer__block div p {
@@ -538,7 +543,6 @@ section.slider h2 {
 
 .footer a {
   color: #181C29;
-  display: block;
 }
 
 .footer a:hover {
