@@ -568,6 +568,13 @@ section.slider h2 {
   background-color: rgba(255, 70, 70, 0.1);
 }
 
+.container-bg-inner {
+  background-color: #FF4646;
+  border-radius: 20px 20px 20px 20px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
 .container-inner {
   background: url(assets/bg-garland.png) no-repeat top center;
   background-size: 1440px auto;
