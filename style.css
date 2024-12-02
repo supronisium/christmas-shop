@@ -538,6 +538,7 @@ section.slider h2 {
 
 .footer a {
   color: #181C29;
+  display: block;
 }
 
 .footer a:hover {
